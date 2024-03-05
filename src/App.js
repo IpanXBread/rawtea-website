@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Raw Tea - Minecraft Server Official Website
+          Raw Tea - Minecraft Server Official Websitessss
         </p>
         <a
           className="App-link"

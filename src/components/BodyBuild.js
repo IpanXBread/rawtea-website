@@ -1,12 +1,12 @@
-// BodyAbout.js
+// BodyBuild.js
 import React from 'react';
 import { Box, Grid, GridItem, Text, Button, Flex, Modal, ModalOverlay, ModalContent, ModalHeader, ModalFooter, ModalBody, ModalCloseButton, Heading } from '@chakra-ui/react';
 import { FaClock, FaBomb } from 'react-icons/fa';
 
-const BodyAbout = () => {
+const BodyBuild = () => {
   return (
     <>
-      <Flex p="100px 50px 50px 50px" display="flex" justifyContent="space-between" alignContent="center" alignItems="center" bg="#1a202c">
+      <Flex p="100px 50px 50px 50px" display="flex" justifyContent="space-between" alignContent="center" alignItems="center">
         <Heading>Shop</Heading>
         {/* <Text color="yellow">View More</Text> */}
       </Flex>
@@ -15,7 +15,6 @@ const BodyAbout = () => {
           templateColumns="2fr 2fr 2fr"
           gap={8}
           p="0px 50px 100px 50px"
-          bg="#1a202c"
         >
 
           {/* Builder */}
@@ -102,4 +101,4 @@ const BodyAbout = () => {
   );
 }
 
-export default BodyAbout;
+export default BodyBuild;

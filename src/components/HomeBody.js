@@ -2,7 +2,7 @@
 import React from 'react';
 import BodyIntro from './BodyIntro';
 import BodyShop from './BodyShop';
-import BodyAbout from './BodyAbout';
+import BodyBuild from './BodyBuild';
 import BodyEvent from './BodyEvent';
 
 const HomeBody = () => {
@@ -10,7 +10,7 @@ const HomeBody = () => {
     <>
       <BodyIntro />
       <BodyShop />
-      <BodyAbout />
+      <BodyBuild />
       <BodyEvent />
     </>
   );

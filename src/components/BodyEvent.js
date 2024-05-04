@@ -6,7 +6,7 @@ import { FaClock, FaBomb } from 'react-icons/fa';
 const BodyEvent = () => {
   return (
     <>
-      <Flex p="100px 50px 50px 50px" display="flex" justifyContent="space-between" alignContent="center" alignItems="center">
+      <Flex p="100px 50px 50px 50px" display="flex" justifyContent="space-between" alignContent="center" alignItems="center" bg="#1a202c">
         <Heading>Event</Heading>
         <Text color="yellow">View More</Text>
       </Flex>
@@ -15,6 +15,7 @@ const BodyEvent = () => {
           templateColumns="2fr 2fr 2fr"
           gap={8}
           p="0px 50px 100px 50px"
+          bg="#1a202c"
         >
           {[1, 2].map((_, index) => (
             <GridItem key={index} colSpan={3} rowSpan={1}>

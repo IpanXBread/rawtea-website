@@ -13,7 +13,7 @@ export default function HomeHeader() {
         as="header"
         align="center"
         justify="space-between"
-        color="white"
+        bg="#1a202c"
       >
 
         {/* Left section */}

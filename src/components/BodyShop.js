@@ -6,7 +6,7 @@ import { FaClock, FaBomb } from 'react-icons/fa';
 const BodyShop = () => {
   return (
     <>
-      <Flex p="100px 50px 50px 50px" display="flex" justifyContent="space-between" alignContent="center" alignItems="center">
+      <Flex p="100px 50px 50px 50px" display="flex" justifyContent="space-between" alignContent="center" alignItems="center" bg="#1a202c">
         <Heading>New Player Builds</Heading>
         <Text color="yellow">View More</Text>
       </Flex>
@@ -15,6 +15,7 @@ const BodyShop = () => {
           templateColumns="2fr 2fr 2fr"
           gap={8}
           p="0px 50px 100px 50px"
+          bg="#1a202c"
         >
           {[1, 2, 3, 4].map((_, index) => (
             <GridItem key={index} colSpan={index === 0 ? 2 : 1} rowSpan={1}>

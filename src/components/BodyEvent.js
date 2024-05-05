@@ -7,7 +7,7 @@ const BodyEvent = () => {
   return (
     <>
       <Flex p="100px 50px 50px 50px" display="flex" justifyContent="space-between" alignContent="center" alignItems="center">
-        <Heading>Event</Heading>
+        <Text variant="header">Event</Text>
         <Text color="yellow">View More</Text>
       </Flex>
       <>
@@ -35,7 +35,7 @@ const BodyEvent = () => {
                   </Text>
                 </Flex>
                 <Flex>
-                  <Text fontSize="5xl" textAlign="center" fontWeight="bold">
+                  <Text variant="header" textAlign="center" fontWeight="bold">
                     Event Name
                   </Text>
                 </Flex>

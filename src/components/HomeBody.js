@@ -9,8 +9,8 @@ const HomeBody = () => {
   return (
     <>
       <BodyIntro />
-      <BodyShop />
       <BodyBuild />
+      <BodyShop />
       <BodyEvent />
     </>
   );

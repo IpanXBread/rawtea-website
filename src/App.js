@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // Pages
 import HomePage from './screens/HomePage';
+import TestPage from "./screens/TestPage";
 
 // Styling
 import './styles/styles.css';
@@ -11,7 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index element={<HomePage />} />
+        <Route index element={<TestPage />} />
         <Route path="/home" element={<HomePage />} />
     
       </Routes>

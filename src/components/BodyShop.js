@@ -7,41 +7,94 @@ const BodyShop = () => {
   return (
     <>
       <Flex p="100px 50px 50px 50px" display="flex" justifyContent="space-between" alignContent="center" alignItems="center">
-        <Heading>New Player Builds</Heading>
-        <Text color="yellow">View More</Text>
+        <Text variant="header">Shop</Text>
+        {/* <Text color="yellow">View More</Text> */}
       </Flex>
       <>
         <Grid
           templateColumns="2fr 2fr 2fr"
-          gap={8}
-          p="0px 50px 100px 50px"
+          gap={10}
+          p="0px 5% 3% 5%"
         >
-          {[1, 2, 3, 4].map((_, index) => (
-            <GridItem key={index} colSpan={index === 0 ? 2 : 1} rowSpan={1}>
-              <Box h="450px" mb="7" bgGradient="linear(to-b, blue.500, purple.800)" p="4">
-                <Flex h="70%">
-                  <Button mt="1" fontSize="xs" color="black" bg="yellow.400" rounded="50px" h="30px" w="90px">
-                    DETAILS
-                  </Button>
-                </Flex>
-                <Flex>
-                  <Text m="0px 10px 0px 0px" display="flex" flexDirection="row" alignItems="center" >
-                    <Flex mr="3" color="gray"><FaClock /></Flex>
-                    <Flex mr="10">Playername</Flex>
-                  </Text>
-                  <Text m="0px 10px 0px 0px" display="flex" flexDirection="row" alignItems="center">
-                    <Flex mr="3" color="gray"><FaBomb /></Flex>
-                    <Flex mr="10">Date of build</Flex>
-                  </Text>
-                </Flex>
-                <Flex>
-                  <Text fontSize="5xl" textAlign="center" fontWeight="bold">
-                    The build name
-                  </Text>
-                </Flex>
-              </Box>
-            </GridItem>
-          ))}
+
+          {/* Builder */}
+          <GridItem colSpan={1} rowSpan={1}>
+            <Box h="550px" mb="7" bgGradient="linear(to-b, red.300, purple.800)" p="4" rounded="30">
+              <Flex h="70%">
+                <Button ml="5" mt="1" fontSize="xs" color="black" bg="yellow.400" rounded="50px" h="30px" w="90px">
+                  DETAILS
+                </Button>
+              </Flex>
+              <Flex>
+                <Text m="0px 10px 0px 0px" display="flex" flexDirection="row" alignItems="center" >
+                  <Flex mr="3" color="gray.300"><FaClock /></Flex>
+                  <Text variant="brightYellow" mr="10">Price</Text>
+                </Text>
+                <Text m="0px 10px 0px 0px" display="flex" flexDirection="row" alignItems="center">
+                  <Flex mr="3" color="gray.300"><FaBomb /></Flex>
+                  <Text variant="brightYellow" mr="10">Duration</Text>
+                </Text>
+              </Flex>
+              <Flex>
+                <Text variant="header" ml="5" mt="5" textAlign="center" fontWeight="bold">
+                  Builder
+                </Text>
+              </Flex>
+            </Box>
+          </GridItem>
+
+          {/* Redstoner */}
+          <GridItem colSpan={1} rowSpan={1}>
+            <Box h="550px" mb="7" bgGradient="linear(to-b, red.300, purple.800)" p="4" rounded="30">
+              <Flex h="70%">
+                <Button ml="5" mt="1" fontSize="xs" color="black" bg="yellow.400" rounded="50px" h="30px" w="90px">
+                  DETAILS
+                </Button>
+              </Flex>
+              <Flex>
+                <Text m="0px 10px 0px 0px" display="flex" flexDirection="row" alignItems="center" >
+                  <Flex mr="3" color="gray.300"><FaClock /></Flex>
+                  <Text variant="brightYellow" mr="10">Price</Text>
+                </Text>
+                <Text m="0px 10px 0px 0px" display="flex" flexDirection="row" alignItems="center">
+                  <Flex mr="3" color="gray.300"><FaBomb /></Flex>
+                  <Text variant="brightYellow" mr="10">Duration</Text>
+                </Text>
+              </Flex>
+              <Flex>
+                <Text variant="header" ml="5" mt="5" textAlign="center" fontWeight="bold">
+                  Redstoner
+                </Text>
+              </Flex>
+            </Box>
+          </GridItem>
+
+          {/* Adventurer */}
+          <GridItem colSpan={1} rowSpan={1}>
+            <Box h="550px" mb="7" bgGradient="linear(to-b, red.300, purple.800)" p="4" rounded="30">
+              <Flex h="70%">
+                <Button ml="5" mt="1" fontSize="xs" color="black" bg="yellow.400" rounded="50px" h="30px" w="90px">
+                  DETAILS
+                </Button>
+              </Flex>
+              <Flex>
+                <Text m="0px 10px 0px 0px" display="flex" flexDirection="row" alignItems="center" >
+                  <Flex mr="3" color="gray.300"><FaClock /></Flex>
+                  <Text variant="brightYellow" mr="10">Price</Text>
+                </Text>
+                <Text m="0px 10px 0px 0px" display="flex" flexDirection="row" alignItems="center">
+                  <Flex mr="3" color="gray.300"><FaBomb /></Flex>
+                  <Text variant="brightYellow" mr="10">Duration</Text>
+                </Text>
+              </Flex>
+              <Flex>
+                <Text variant="header" ml="5" mt="5" textAlign="center" fontWeight="bold">
+                  Adventurer
+                </Text>
+              </Flex>
+            </Box>
+          </GridItem>
+
         </Grid>
       </>
     </>

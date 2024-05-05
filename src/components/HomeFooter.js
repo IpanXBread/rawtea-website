@@ -8,13 +8,14 @@ const HomeFooter = () => {
     <>
       <Flex
         height="350px"
+        w="full"
       >
         {/* Left container */}
-        <Box width="35%" backgroundColor="gray.600" height="100%" p="30px 50px 50px 50px">
+        <Box flex="1" backgroundColor="gray.600" height="100%" p="30px 50px 50px 50px">
           <h2 mr="10">Raw Tea</h2>
           <Text mt="20px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi vitae purus efficitur fringilla id vel ipsum.</Text>
           <Text mt="20px" fontWeight="bold">Join Newsletter</Text>
-          <Box mt="20px" backgroundColor="yellow.100" w="250px" h="50px" rounded="md" display="flex" alignItems="center" justifyContent="space-between" px={4}>
+          <Box mt="20px" backgroundColor="yellow.100" h="50px" rounded="md" display="flex" alignItems="center" justifyContent="space-between" px={4}>
             <Input
               placeholder="Insert your email here"
               size="sm"
@@ -35,7 +36,7 @@ const HomeFooter = () => {
         </Box>
 
         {/* Right container */}
-        <Box width="65%" backgroundColor="gray.700" height="100%">
+        <Box flex="2" backgroundColor="gray.700" height="100%">
           <Box height="60%" ml="10">
             <Grid
               templateColumns="1fr 1fr 1fr"

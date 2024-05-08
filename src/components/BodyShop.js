@@ -7,7 +7,7 @@ const BodyShop = () => {
   return (
     <>
       <Flex p="100px 50px 50px 50px" display="flex" justifyContent="space-between" alignContent="center" alignItems="center">
-        <Text variant="header">Shop</Text>
+        <Text variant="big">Shop</Text>
         {/* <Text color="yellow">View More</Text> */}
       </Flex>
       <>
@@ -28,15 +28,15 @@ const BodyShop = () => {
               <Flex>
                 <Text m="0px 10px 0px 0px" display="flex" flexDirection="row" alignItems="center" >
                   <Flex mr="3" color="gray.300"><FaClock /></Flex>
-                  <Text variant="brightYellow" mr="10">Price</Text>
+                  <Text variant="small" mr="10">Price</Text>
                 </Text>
                 <Text m="0px 10px 0px 0px" display="flex" flexDirection="row" alignItems="center">
                   <Flex mr="3" color="gray.300"><FaBomb /></Flex>
-                  <Text variant="brightYellow" mr="10">Duration</Text>
+                  <Text variant="small" mr="10">Duration</Text>
                 </Text>
               </Flex>
               <Flex>
-                <Text variant="header" ml="5" mt="5" textAlign="center" fontWeight="bold">
+                <Text variant="big" ml="5" mt="5" textAlign="center" fontWeight="bold">
                   Builder
                 </Text>
               </Flex>
@@ -54,15 +54,15 @@ const BodyShop = () => {
               <Flex>
                 <Text m="0px 10px 0px 0px" display="flex" flexDirection="row" alignItems="center" >
                   <Flex mr="3" color="gray.300"><FaClock /></Flex>
-                  <Text variant="brightYellow" mr="10">Price</Text>
+                  <Text variant="small" mr="10">Price</Text>
                 </Text>
                 <Text m="0px 10px 0px 0px" display="flex" flexDirection="row" alignItems="center">
                   <Flex mr="3" color="gray.300"><FaBomb /></Flex>
-                  <Text variant="brightYellow" mr="10">Duration</Text>
+                  <Text variant="small" mr="10">Duration</Text>
                 </Text>
               </Flex>
               <Flex>
-                <Text variant="header" ml="5" mt="5" textAlign="center" fontWeight="bold">
+                <Text variant="big" ml="5" mt="5" textAlign="center" fontWeight="bold">
                   Redstoner
                 </Text>
               </Flex>
@@ -80,15 +80,15 @@ const BodyShop = () => {
               <Flex>
                 <Text m="0px 10px 0px 0px" display="flex" flexDirection="row" alignItems="center" >
                   <Flex mr="3" color="gray.300"><FaClock /></Flex>
-                  <Text variant="brightYellow" mr="10">Price</Text>
+                  <Text variant="small" mr="10">Price</Text>
                 </Text>
                 <Text m="0px 10px 0px 0px" display="flex" flexDirection="row" alignItems="center">
                   <Flex mr="3" color="gray.300"><FaBomb /></Flex>
-                  <Text variant="brightYellow" mr="10">Duration</Text>
+                  <Text variant="small" mr="10">Duration</Text>
                 </Text>
               </Flex>
               <Flex>
-                <Text variant="header" ml="5" mt="5" textAlign="center" fontWeight="bold">
+                <Text variant="big" ml="5" mt="5" textAlign="center" fontWeight="bold">
                   Adventurer
                 </Text>
               </Flex>

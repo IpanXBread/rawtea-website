@@ -9,16 +9,17 @@ const HomeFooter = () => {
       <Flex
         height="350px"
         w="full"
+        direction={{ base: 'column', md: 'row' }} 
       >
         {/* Left container */}
         <Box flex="1" backgroundColor="gray.600" height="100%" p="30px 50px 50px 50px">
-          <h2 mr="10">Raw Tea</h2>
-          <Text mt="20px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi vitae purus efficitur fringilla id vel ipsum.</Text>
+          <Text variant="big" mr="10">Raw Tea</Text>
+          <Text variant="small" mt="20px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi vitae purus efficitur fringilla id vel ipsum.</Text>
           <Text mt="20px" fontWeight="bold">Join Newsletter</Text>
           <Box mt="20px" backgroundColor="yellow.100" h="50px" rounded="md" display="flex" alignItems="center" justifyContent="space-between" px={4}>
             <Input
               placeholder="Insert your email here"
-              size="sm"
+              size={["xs", "xs", "xs", "md"]}
               rounded="md"
               border="none"
               _focus={{ border: 'none', outline: 'none' }}
@@ -36,7 +37,7 @@ const HomeFooter = () => {
         </Box>
 
         {/* Right container */}
-        <Box flex="2" backgroundColor="gray.700" height="100%">
+        <Box flex="2" backgroundColor="gray.700" height="100%" pb="20px">
           <Box height="60%" ml="10">
             <Grid
               templateColumns="1fr 1fr 1fr"
@@ -46,54 +47,54 @@ const HomeFooter = () => {
               mt="70"
             >
               <GridItem colSpan={1} rowSpan={1} fontWeight="bold" _hover={{ cursor: 'pointer' }} w="fit-content">
-                Product
+                <Text variant="smaller">Product</Text>
               </GridItem>
               <GridItem colSpan={1} rowSpan={1} fontWeight="bold" _hover={{ cursor: 'pointer' }} w="fit-content">
-                Media Group
+                <Text variant="smaller">Media Group</Text>
               </GridItem>
               <GridItem colSpan={1} rowSpan={1} fontWeight="bold" _hover={{ cursor: 'pointer' }} w="fit-content">
-                Sitemap
+                <Text variant="smaller">Sitemap</Text>
               </GridItem>
               <GridItem colSpan={1} rowSpan={1} _hover={{ cursor: 'pointer' }} w="fit-content">
-                BUILDS
+                <Text variant="smaller">BUILDS</Text>
               </GridItem>
               <GridItem colSpan={1} rowSpan={1} _hover={{ cursor: 'pointer' }} w="fit-content">
-                Nice Studio
+                <Text variant="smaller">Nice Studio</Text>
               </GridItem>
               <GridItem colSpan={1} rowSpan={1} _hover={{ cursor: 'pointer' }} w="fit-content">
-                About
+                <Text variant="smaller">About</Text>
               </GridItem>
               <GridItem colSpan={1} rowSpan={1} _hover={{ cursor: 'pointer' }} w="fit-content">
-                TV Show
+                <Text variant="smaller">TV Show</Text>
               </GridItem>
               <GridItem colSpan={1} rowSpan={1} _hover={{ cursor: 'pointer' }} w="fit-content">
-                Nice news
+                <Text variant="smaller">Nice news</Text>
               </GridItem>
               <GridItem colSpan={1} rowSpan={1} _hover={{ cursor: 'pointer' }} w="fit-content">
-                Careers
+                <Text variant="smaller">Careers</Text>
               </GridItem>
               <GridItem colSpan={1} rowSpan={1} _hover={{ cursor: 'pointer' }} w="fit-content">
-                Videos
+                <Text variant="smaller">Videos</Text>
               </GridItem>
               <GridItem colSpan={1} rowSpan={1} _hover={{ cursor: 'pointer' }} w="fit-content">
-                Nice TV
+                <Text variant="smaller">Nice TV</Text>
               </GridItem>
               <GridItem colSpan={1} rowSpan={1} _hover={{ cursor: 'pointer' }} w="fit-content">
-                Press
+                <Text variant="smaller">Press</Text>
               </GridItem>
             </Grid>
           </Box>
-          <Box display="flex" justifyContent="space-around" flexDirection="row" alignItems="center" ml="50px" mr="50px">
+          <Box display="flex" justifyContent="space-around" flexDirection="row" alignItems="center" ml="50px" mr="50px" mb="30px">
             <FaAddressBook />
-            <Text m="0px 10px 0px 10px" w="33%">
+            <Text variant="smallest" m="0px 10px 0px 10px" w="33%">
               Selangor, Malaysia
             </Text>
             <FaMailBulk />
-            <Text m="0px 10px 0px 10px" w="33%">
+            <Text variant="smallest" m="0px 10px 0px 10px" w="33%">
               raw-tea.my.to
             </Text>
             <FaPhone />
-            <Text m="0px 10px 0px 10px" w="33%">
+            <Text variant="smallest" m="0px 10px 0px 10px" w="33%">
               +03-76272929
             </Text>
           </Box>

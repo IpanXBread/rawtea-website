@@ -7,7 +7,7 @@ const BodyBuild = () => {
   return (
     <>
       <Flex p="100px 50px 50px 50px" display="flex" justifyContent="space-between" alignContent="center" alignItems="center">
-        <Text variant="header">New Player Builds</Text>
+        <Text variant="big">New Player Builds</Text>
         <Text color="yellow">View More</Text>
       </Flex>
       <>
@@ -35,7 +35,7 @@ const BodyBuild = () => {
                   </Text>
                 </Flex>
                 <Flex>
-                  <Text variant="header" textAlign="center" fontWeight="bold">
+                  <Text variant="big" textAlign="center" fontWeight="bold">
                     The build name
                   </Text>
                 </Flex>

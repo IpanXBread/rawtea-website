@@ -42,7 +42,7 @@ export default function HomeHeader() {
         {/* Left section */}
         <Flex align="center" ml="10%">
 
-          <Text variant="header" mr="15%" whiteSpace="nowrap">Raw Tea</Text>
+          <Text variant="big" mr="15%" whiteSpace="nowrap">Raw Tea</Text>
 
           {showNav ? (
             <>
@@ -63,19 +63,19 @@ export default function HomeHeader() {
           {showNav ? (
             <>
               <Text><FaUser className="icon-size" /></Text>
-              <Text variant="description" ml="5">IpanXBread</Text>
+              <Text variant="small" ml="5">IpanXBread</Text>
             </>
           ) : (
             <>
               <Text mr="10%"><FaUser className="icon-size" /></Text>
-              <Text variant="description" mr="10%">IpanXBread</Text>
+              <Text variant="small" mr="10%">IpanXBread</Text>
               <Text><FaBars style={{ fontSize: "20px" }} onClick={toggleNav} /></Text>
             </>
           )}
 
           {openNav ? (
             <>
-              <Flex bg={theme.colors.colort1} h="130px" w="30%" mt="175px" flexDirection="column" p="10px 10px 10px 10px" mr="0px" position="absolute" right="20px">
+              <Flex bg={theme.colors.colort1} h="auto" w="30%" mt="195px" flexDirection="column" p="10px 10px 10px 10px" mr="0px" position="absolute" right="20px">
 
                 <Flex alignItems="center" mb="5px" p="5px 10px 5px 10px" bg="gray.900" borderRadius="4">
                   <Text>Build</Text>

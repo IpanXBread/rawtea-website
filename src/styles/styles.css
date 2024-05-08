@@ -55,7 +55,14 @@ h3 {
 
 html,body{
     overflow-x: hidden;
+    height: 100%;
 }
+
+.one-line {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
 
 @media screen and (max-width: 768px) {
     .icon-size {

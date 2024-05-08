@@ -26,22 +26,37 @@ const theme = extendTheme({
     },
     Text: {
       baseStyle: {
-        color: "colorYellow",
-        fontSize: ["0.7em", "0.85em", "1.1em", "1.5em"],
+        color: "colorWhite",
+        fontSize: ["0.8em", "0.9em", "1em", "1.1em"],
       },
       variants: {
-        description: {
+        small: {
           color: "colorDarkYellow",
-          fontSize: ["xs", "md", "lg", "xl"],
+          fontSize: ["0.7em", "0.8em", "0.9em", "1em"],
+        },
+        smaller: {
+          color: "colorWhite",
+          fontSize: ["0.6em", "0.675em", "0.75em", "0.9em"],
+        },
+        smallest: {
+          color: "colorBrightYellow",
+          fontSize: ["0.525em", "0.6em", "0.675em", "0.8em"],
+        },
+        big: {
+          color: "colorWhite",
+          fontSize: ["1.2em", "1.4em", "1.6em", "1.8em"],
+          fontWeight: "bold",
+        },
+        bigger: {
+          color: "colorWhite",
+          fontSize: ["0.7em", "0.85em", "1.1em", "1.4em"],
+          fontWeight: "bold",
         },
         header: {
           color: "colorWhite",
-          fontSize: ["1em", "1.25em", "1.5em", "2em"],
+          fontSize: ["0.7em", "0.85em", "1.1em", "1.4em"],
           fontWeight: "bold",
         },
-        brightYellow: {
-          color: "colorBrightYellow",
-        }
       },
     },
   },
